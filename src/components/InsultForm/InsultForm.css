@@ -1,0 +1,50 @@
+.insult-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    border-radius: 12px;
+    background-color: #f1faee;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    gap: 1rem;
+  }
+  
+  .insult-form label {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #1d3557;
+  }
+  
+  .insult-form input[type="text"] {
+    width: 100%;
+    padding: 0.6rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  
+  .insult-form input[type="text"]:focus {
+    border-color: #457b9d;
+  }
+  
+  .form-sub {
+    background-color: #e63946;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .form-sub:hover {
+    background-color: #d62839;
+  }
+  
